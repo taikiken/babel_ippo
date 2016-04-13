@@ -1,3 +1,17 @@
+# ignore system files
+# ==============================
+thumbs.db
+.DS_Store
+__MACOSX
+._*
+.sass-cache
+_bin
+
+# editor
+# ==============================
+.idea
+*.iml
+
 # Logs
 logs
 *.log
@@ -31,3 +45,23 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# gulp build files
+# ==============================
+# conflict するので 生成ファイルを ignore します
+
+# 開発 css 出力 directory
+# ------------
+.tmp
+
+# src babels
+# -----------
+src/babels/compile
+
+# css map
+# ------------
+*.css.map
+
+# public assets all
+# ------------
+public/assets
