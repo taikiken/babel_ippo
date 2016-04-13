@@ -1,4 +1,4 @@
-# Babek 始めの一歩
+# Babel 始めの一歩
 
 - [Babel](https://babeljs.io/)  
 - [webpack](https://webpack.github.io/)
