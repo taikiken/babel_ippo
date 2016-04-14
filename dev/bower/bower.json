@@ -1,0 +1,131 @@
+{
+  "name": "parachuteRunner",
+  "description": "【Web開発環境】基本JavaScript Libraries",
+  "main": "index.js",
+  "authors": [
+    "Parachute @taikiken",
+    "Kakoi Hiroki <k@parachute-canopy.org>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sagen.js": "~0.4.12",
+    "html5shiv": "~3.7.3",
+    "foundation": "~5.5.3",
+    "jquery1": "jquery#^1",
+    "jquery2": "jquery#~2.1.4",
+    "jquery-migrate": "~1.2.1",
+    "jquery-ui": "~1.11.4",
+    "jquery.smooth-scroll": "~1.6.1",
+    "sass-mediaqueries": "~1.6.1",
+    "modularized-normalize-scss": "~3.0.3",
+    "matchHeight": "git://github.com/liabru/jquery-match-height#~0.7.0",
+    "inazumatv.util.js": "git://github.com/taikiken/inazumatv.util.js",
+    "bxslider3": "bxslider#*",
+    "bxslider4": "bxslider-4#~4.2.5",
+    "fancybox": "~2.1.5"
+  },
+  "overrides": {
+    "bxslider4": {
+      "main": [
+        "dist/*.min.*",
+        "dist/**/images/*",
+        "dist/**/vendor/*"
+      ]
+    },
+    "bxslider3": {
+      "main": [
+        "*.js",
+        "!source/*",
+        "bx_style"
+      ]
+    },
+    "fancybox": {
+      "main": [
+        "source/*.pack.js",
+        "source/*.{gif,png,css}",
+        "source/helpers/*"
+      ]
+    },
+    "sagen.js": {
+      "main": [
+        "libs/*.min.js"
+      ]
+    },
+    "html5shiv": {
+      "main": [
+        "dist/*.min.js"
+      ]
+    },
+    "foundation": {
+      "main": [
+        "js/foundation/foundation*.js",
+        "scss/foundation/components/*.scss"
+      ]
+    },
+    "jquery1": {
+      "main": [
+        "dist/*.min.*"
+      ]
+    },
+    "jquery2": {
+      "main": [
+        "dist/*.min.*"
+      ]
+    },
+    "jquery-migrate": {
+      "main": [
+        "**/*.min.js"
+      ]
+    },
+    "jquery-ui": {
+      "main": [
+        "jquery-ui.min.js"
+      ]
+    },
+    "jquery.smooth-scroll": {
+      "main": [
+        "*.min.js"
+      ]
+    },
+    "inazumatv.util.js": {
+      "main": [
+        "libs/*.min.js"
+      ]
+    },
+    "sass-mediaqueries": {
+      "main": "*.scss"
+    },
+    "modularized-normalize-scss": {
+      "main": [
+        "*.scss",
+        "base/*.scss",
+        "embed/*.scss",
+        "forms/*.scss",
+        "grouping/*.scss",
+        "html5/*.scss",
+        "links/*.scss",
+        "tables/*.scss",
+        "text-level/*.scss"
+      ]
+    },
+    "heightLine": {
+      "main": [
+        "*.js"
+      ]
+    },
+    "matchHeight": {
+      "main": [
+        "**/*-min.js"
+      ]
+    }
+  }
+}

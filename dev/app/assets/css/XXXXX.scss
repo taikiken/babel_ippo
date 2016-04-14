@@ -1,0 +1,9 @@
+$color: red;
+
+.red {
+  color: $color;
+}
+
+body {
+  @extend .red;
+}
